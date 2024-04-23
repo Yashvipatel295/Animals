@@ -1,0 +1,145 @@
+.sidebar {
+    width: 12%;
+    height:780px;
+    background-color:#fff;
+    color:black;
+    float: left;
+    
+  }
+  
+  .sidebar-header {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:white;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+ 
+.mybutton{
+  
+  /* color:black;
+  font-size: medium;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 10%;
+  height: 10%;
+  width: 50%;
+  border-radius: 5%; */
+  color: darkgreen;  
+  background-color:lightgray;
+  border-style:none;
+ 
+  
+  
+}
+/* .mybutton:hover{
+  background-color
+} */
+.navi{
+  background-color:white; 
+  color:black;
+  font-size: 50px;
+  height:100px;
+  width: 100%;
+  text-align: center;
+  font-style: bold;
+  
+  padding-top: 20px;
+
+}
+.content{
+  width:100%;
+ text-align: "center";
+  height:100%; 
+}
+.main{
+  width: 100%;
+  
+}
+.img-main{
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+.catimgsize{
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+}
+.desc{
+  text-align: center;
+}
+.navbar-brand img {
+  width: 80px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+
+.AnimalSelection {
+  width: 80%;
+  height: 20rem;
+  display: flex;
+  gap: 10px;
+}
+
+.AnimalSelection > div {
+  border-radius: 10px;
+  overflow: hidden;
+  border: solid;
+}
+
+.coverImage {
+  object-fit: cover;
+  min-width: 50px;
+  transition: 0.3s ease-out;
+  height: 100%;
+  max-width: 300px;
+}
+
+.coverImage:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1040px) {
+  .AnimalSelection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+  }
+  .AnimalSelection > div {
+    height: 150%;
+  }
+}
+
+.AnimalContainer {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+

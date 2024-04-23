@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "name": "Category 1",
+      "items": [
+        {
+          "image":"/m1.jpg",
+          "title": "Dog",
+          "description": ""
+        },
+        {
+          "title": "Item 2",
+          "description": "Description of Item 2 in Category 1"
+        }
+      ]
+    },
+    {
+      "name": "Category 2",
+      "items": [
+        {
+          "title": "Item 1",
+          "description": "Description of Item 1 in Category 2"
+        },
+        {
+          "title": "Item 2",
+          "description": "Description of Item 2 in Category 2"
+        }
+      ]
+    }
+  ]
+}
